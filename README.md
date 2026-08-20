@@ -14,15 +14,15 @@ In this Python project, we implement robust control laws for the control of a lu
 - 2D modeling
 
 Control variables:
--$\delta$: nozzle steering angle
--$\eta$: mass flow rate at the nozzle outlet
+- $\delta$: nozzle steering angle
+- $\eta$: mass flow rate at the nozzle outlet
 
 State variables:
--$x$: horizontal position of the landing gear
--$z$: vertical position of the landing gear
--$\theta$: pitch angle of the module body
--$m$: total mass (vehicle + fuel)
--$I$: moment of inertia about pitch
+- $x$: horizontal position of the landing gear
+- $z$: vertical position of the landing gear
+- $\theta$: pitch angle of the module body
+- $m$: total mass (vehicle + fuel)
+- $I$: moment of inertia about pitch
 
 $$
     \begin{bmatrix} \dot{x} \\ 
