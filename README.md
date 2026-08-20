@@ -10,8 +10,29 @@
 In this Python project, we implement robust control laws for the control of a lunar lander subject to significant disturbances and model uncertainties. This project provides dynamical simulations, performance comparison and graphic visualization.
 
 ## 🚀 System dynamic description
+- TVC-controlled (thrust vector control) landing gear
+- 2D modeling
 
-- To add
+$$
+    \begin{bmatrix} \dot{x} \\ 
+    \dot{z} \\ 
+    \dot{V}_x \\
+    \dot{V}_z \\
+    \dot{\theta} \\
+    \dot{\omega} \\
+    \dot{m} \\
+    \dot{I} \end{bmatrix} = 
+    \begin{bmatrix} V_x \\
+    V_z \\ 
+    \frac{1}{m} \eta g_0 I_{spv} \cos(\theta+\delta)\\
+    -\frac{1}{m} \eta g_0 I_{spv} \sin(\theta+\delta) + g \\
+    \omega \\
+    -\frac{1}{I} \eta g_0 I_{spv} l_q \cos(\theta+\delta) \\
+    -\eta \\
+    -l_I^2\eta
+    -g \end{bmatrix} 
+$$
+
 
 <!-- ##  🔧 Control loop scheme <img alt="Control" src="pictures/quadcopter_control_loop.png" width="70%" height="70%"> </img> -->
 
