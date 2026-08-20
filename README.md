@@ -25,6 +25,7 @@ State variables:
 - $I$: moment of inertia about pitch
 
 Dynamic equations:
+
 $$
     \begin{bmatrix} \dot{x} \\ 
     \dot{z} \\ 
