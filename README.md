@@ -72,7 +72,7 @@ $$
 Contributions are welcome!
 
 Future improvements could include:
-- NMPC implementation
+- SMC and NMPC implementations
 - Better controller tuning
 - Robustness assessment
 - More detailled Readme
