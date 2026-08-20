@@ -24,6 +24,7 @@ State variables:
 - $m$: total mass (vehicle + fuel)
 - $I$: moment of inertia about pitch
 
+Dynamic equations:
 $$
     \begin{bmatrix} \dot{x} \\ 
     \dot{z} \\ 
